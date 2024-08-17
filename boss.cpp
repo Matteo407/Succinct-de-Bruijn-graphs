@@ -31,13 +31,12 @@ int max_in_range(int i, int j, int min, int max) {
 int to_int(char c) {
 
 	switch(c){
-		case '$': case '%': return 0; break;
+		case '$': return 0; break;
 		case 'A': case 'a': return 1; break;
 		case 'C': case 'c': return 2; break;
 		case 'G': case 'g': return 3; break;
 		case 'T': case 't': return 4; break;
 		default: break;
-
 	}
 
 	return 1;
