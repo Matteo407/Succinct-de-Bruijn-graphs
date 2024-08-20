@@ -367,6 +367,7 @@ public:
 
     // Returns the index of the node labelled with string s
     int index(std::string s) {
+	if (s.length() != this->k) return -1;
         
         // First character of s
         char c = *(s.substr(0, 1)).c_str();
