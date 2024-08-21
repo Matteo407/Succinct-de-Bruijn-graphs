@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     }
 
     std::string path_to_input_file = argv[1];
-    int lines = atoi(argv[2]);
+    int lines = 4*atoi(argv[2]);
     int k = atoi(argv[3]);
 
     std::cout << "starting preprocessing with lines = " << lines << '\n';
