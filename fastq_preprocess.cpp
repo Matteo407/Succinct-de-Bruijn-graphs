@@ -8,8 +8,8 @@
 using namespace std::chrono;
 
 int main(int argc, char *argv[]) {
-    if (argc != 3) {
-        std::cout << "Usage: " << argv[0] << "<input_file_path> <num lines> <k>" << std::endl;
+    if (argc != 4) {
+        std::cout << "Usage: " << argv[0] << " <input_file_path> <num lines> <k>" << std::endl;
         return 1;
     }
 
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << "starting preprocessing with lines = " << lines << '\n';
     std::ifstream input_file(path_to_input_file);
-    std::ofstream output_file("temp.txt");
+    std::ofstream output_file("BOSS_input.txt");
 
     std::string line;
     int line_number = 0;
