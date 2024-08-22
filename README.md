@@ -13,9 +13,9 @@ following the instructions from the [SDSL library](https://github.com/simongog/s
 
 ```./main kmers.txt 3```
 
-Any other input file can be used, but it must follow the specifications described in the [report](Implementation report.pdf). In the case of FASTQ files, 'fastq_preprocess.cpp' already takes care of the preprocessing, selecting only the lines with the DNA sequences. It takes as arguments the path to the FASTQ file, the number of lines to include and the value of k.
+Any other input file can be used, but it must follow the specifications described in the [report](Implementation_report.pdf). In the case of FASTQ files, 'fastq_preprocess.cpp' already takes care of the preprocessing, selecting only the lines with the DNA sequences. It takes as arguments the path to the FASTQ file, the number of lines to include and the value of k.
 
-The file ```memory usage.cpp``` is the one we used to measure the performances (the results are summarized in the [report](Implementation report.pdf)). Finally, the file ```timer.cpp``` contains a scope based timer by used to show visually in Chrome tracing the timing of the program.
+The file ```memory usage.cpp``` is the one we used to measure the performances (the results are summarized in the [report](Implementation_report.pdf)). Finally, the file ```timer.cpp``` contains a scope based timer by used to show visually in Chrome tracing the timing of the program.
 
 
  
