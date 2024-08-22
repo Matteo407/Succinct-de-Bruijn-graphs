@@ -450,13 +450,13 @@ public:
                 std::cout << std::left << this->outdegree(node_id(i));
 
                 std::cout.width(16);
-                std::cout << std::left << outgoing(node_id(i), '$');
+                std::cout << std::left << outgoing(node_id(i), 'A');
 
                 std::cout.width(10);
                 std::cout << std::left << this->indegree(node_id(i));
 
                 std::cout.width(16);
-                std::cout << std::left << incoming(node_id(i), '$');
+                std::cout << std::left << incoming(node_id(i), 'A');
 
                 std::cout << '\n';
             }
